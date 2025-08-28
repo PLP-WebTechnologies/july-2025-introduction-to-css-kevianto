@@ -1,0 +1,75 @@
+/* Reset some default spacing */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* Header styling */
+.header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+.content {
+  padding: 20px;
+}
+
+/* Card sections to demonstrate Box Model */
+.card {
+  background-color: white;
+  border: 2px solid #ddd;
+  padding: 20px;        /* inside spacing */
+  margin: 20px 0;       /* outside spacing */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Button styling */
+.btn {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px 20px;   /* padding = inside spacing */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;     /* margin = outside spacing */
+}
+
+.btn:hover {
+  background-color: #357ab7;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
